@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedro Gomes Fisioterapeuta</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1b8d54;
+      color: #fff;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+    .btn-topo {
+      display: inline-block;
+      background-color: #ffffff;
+      color: #1b8d54;
+      font-weight: 700;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s, color 0.3s;
+    }
+    .btn-topo:hover {
+      background-color: #157747;
+      color: #fff;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #1b8d54;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .servicos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .servico {
+      background: #f8f8f8;
+      padding: 1.5rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .sobre p {
+      margin-bottom: 1rem;
+    }
+    .contato {
+      text-align: center;
+    }
+    .contato a {
+      display: inline-block;
+      margin: 0.5rem;
+      text-decoration: none;
+      color: #fff;
+      background-color: #1b8d54;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+    .contato a:hover {
+      background-color: #157747;
+    }
+    footer {
+      background: #f1f1f1;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    /* Botão WhatsApp flutuante */
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 32px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      z-index: 1000;
+      transition: transform 0.2s;
+    }
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+    }
+    .whatsapp-float i {
+      margin-top: 14px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Pedro Gomes Fisioterapeuta</h1>
+    <p>Fisioterapia Ortopédica, Neurológica e Cardiopulmonar</p>
+    <a href="https://wa.me/5522974000331" target="_blank" class="btn-topo">Agendar Avaliação pelo WhatsApp</a>
+  </header>
+
+  <section class="hero" style="text-align:center;">
+    <h2>Cuidando do seu movimento, da sua saúde e da sua recuperação</h2>
+    <p>Sou Pedro Gomes, fisioterapeuta com mais de 20 anos de experiência em reabilitação ortopédica, neurológica e respiratória. Atendimento personalizado em domicílio e consultório.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <p style="text-align:center;">Atendimento completo e humanizado em diversas áreas da fisioterapia.</p>
+    <div class="servicos">
+      <div class="servico">
+        <h3>Reabilitação Ortopédica e Pós-operatória</h3>
+        <p>Tratamento personalizado para recuperação de lesões e cirurgias musculoesqueléticas.</p>
+      </div>
+      <div class="servico">
+        <h3>Fisioterapia Neurológica</h3>
+        <p>Abordagem funcional e empática para pacientes com sequelas neurológicas.</p>
+      </div>
+      <div class="servico">
+        <h3>Fisioterapia Cardiorrespiratória</h3>
+        <p>Melhore sua capacidade pulmonar e qualidade de vida com atendimentos direcionados.</p>
+      </div>
+      <div class="servico">
+        <h3>Atendimento Domiciliar</h3>
+        <p>Conforto e comodidade para o paciente, com toda a estrutura necessária em casa.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Graduado em Fisioterapia em 2002 e Pós-Graduado em Neurofisiologia, com ampla experiência em Fisioterapia Traumato-ortopédica, Neurofuncional e Cardiopulmonar/Respiratória.</p>
+    <p>Ex-Oficial Fisioterapeuta da Marinha do Brasil e atual servidor público municipal, trago disciplina, técnica e empatia para cada atendimento.</p>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Entre em Contato</h2>
+    <p>Agende uma avaliação e comece sua recuperação com segurança.</p>
+    <a href="https://wa.me/5522974000331" target="_blank">WhatsApp</a>
+    <a href="https://www.instagram.com/pedrogomesfisio" target="_blank">Instagram</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Pedro Gomes Fisioterapeuta. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Botão flutuante WhatsApp -->
+  <a href="https://wa.me/5522974000331" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</body>
+</html>
